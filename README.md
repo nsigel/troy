@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/banner.png" alt="Troy: your assistant at USC." width="600">
+  <img src=".github/troy-banner.png" alt="Troy: your assistant at USC." width="600">
 </p>
 
 Troy is a personal assistant for USC students. Text it on iMessage or chat on the web, and it works across your USC accounts (Brightspace, Web Registration, Leavey Library rooms, mobile ordering and Handshake) to answer questions and get things done.
