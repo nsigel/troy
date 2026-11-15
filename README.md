@@ -6,16 +6,13 @@ Troy is a personal assistant for USC students. Text it on iMessage or chat on th
 
 ![The Troy web app](.github/screenshot.jpg)
 
-## What you can ask
+## Skills
 
-- "What's due this week?"
-- "When's my next midterm, and what does it cover?"
-- "Find me a study room in Leavey tonight for 4 people."
-- "Order me an iced latte for pickup at 10."
-- "Text me if a seat opens up in PHED 140a."
-- "Add the 6pm section of BUAD 304 to my schedule."
-- "Which career fairs are coming up for CS?"
-- "Remind me to submit my ECON problem set Thursday at 8."
+- Academic
+- Registration
+- Study rooms
+- Food
+- Career fairs
 
 Troy also texts you on its own: new grades as they post, reminders you set and anything a monitor you asked for turns up. Before it books, orders or registers, it shows you what it's about to do and waits for a yes.
 
