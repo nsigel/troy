@@ -1,0 +1,20 @@
+services:
+  troy:
+    build: .
+    restart: unless-stopped
+    env_file:
+      - path: ${HOME}/.config/troy/env
+        required: false
+      - path: .env
+        required: false
+    environment:
+      TROY_ADDR: 0.0.0.0:8787
+      TROY_URL: ${TROY_URL:-http://localhost:8787}
+      TROY_HOME: ${TROY_HOME:-${PWD}/.troy}
+    ports:
+      - ${TROY_PUBLISH:-127.0.0.1:}:8787
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${TROY_HOME:-${PWD}/.troy}:${TROY_HOME:-${PWD}/.troy}
+    group_add:
+      - ${DOCKER_GID:-0}

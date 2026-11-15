@@ -1,0 +1,7 @@
+.git
+.claude
+.env
+/troy
+**/node_modules
+web/dist/app
+.troy/

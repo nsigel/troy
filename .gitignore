@@ -1,0 +1,8 @@
+.env
+/troy
+.troy/
+go.work*
+eval-results/
+
+__pycache__/
+*.py[cod]
