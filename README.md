@@ -19,11 +19,14 @@ Troy is a personal assistant for USC students. Text it on iMessage or chat on th
 
 Troy also texts you on its own: new grades as they post, reminders you set and anything a monitor you asked for turns up. Before it books, orders or registers, it shows you what it's about to do and waits for a yes.
 
-## How it works
+## Stack
 
-Every student gets their own agent. It writes and runs Python in a sandboxed Docker container, uses on-demand Markdown skills, and can hand sub-tasks to fresh agents. It reaches USC through [usc-cli](https://github.com/nsigel/usc-cli), a command-line client for USC's systems that prints JSON, signed in as that student.
-
-`troy serve` is the one server. iMessage (through Sendblue), the web app and `troy chat` are all ways in.
+- Go
+- OpenRouter
+- Docker
+- [usc-cli](https://github.com/nsigel/usc-cli)
+- Sendblue
+- React
 
 ## Run it
 
