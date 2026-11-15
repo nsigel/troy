@@ -2,7 +2,7 @@ package agent
 
 import "strings"
 
-// Update is one change to a web chat, as the web app receives it (docs/http-api.md).
+// Update is one change to a web chat, as the web app receives it.
 type Update struct {
 	Type   string `json:"type"` // user, turn_start, text, tool_start, tool_end, turn_end or suggestion
 	Text   string `json:"text,omitempty"`

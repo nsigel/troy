@@ -1,4 +1,4 @@
-// The one place that talks to Troy's API (docs/http-api.md).
+// The one place that talks to Troy's API.
 
 export type Connection = { kind: string; status: 'connected' | 'not_connected'; net_id?: string; first_name?: string }
 export type Me = { phone_number: string; connections: Connection[] }

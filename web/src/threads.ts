@@ -13,7 +13,7 @@ export type Thread = {
 
 const empty: Thread = { busy: false, messages: [], pending: [], suggestion: '' }
 
-// The same reducer as the server's (docs/http-api.md).
+// The same reducer as the server's.
 function apply(s: Thread, e: ChatEvent): Thread {
   const messages = [...s.messages]
   const reply = () => {
